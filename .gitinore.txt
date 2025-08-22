@@ -1,0 +1,10 @@
+# File konfigurasi sensitif
+includes/db.php
+
+# Folder upload (biar gambar2 tidak numpuk di GitHub)
+uploads/*
+!uploads/.gitkeep
+
+# Cache & system
+*.log
+*.tmp

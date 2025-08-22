@@ -1,0 +1,97 @@
+/* style.css */
+
+body {
+  background-color: #f0f2f5; /* Warna latar belakang body yang sedikit abu-abu */
+}
+
+.header-top-bar {
+  background-color: #981e22; /* Warna merah marun dari screenshot */
+  font-family: Arial, sans-serif;
+}
+
+.marquee-container {
+  background-color: #ffffff;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar.bg-dark {
+  background-color: #343a40 !important; /* Warna navbar utama */
+}
+
+main.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #333;
+  border-left: 4px solid #981e22;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Styling untuk Sidebar Widget */
+.sidebar-widget .card-header {
+  background-color: #007bff; /* Warna biru untuk header widget */
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.sidebar-widget ul a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: background-color 0.2s;
+}
+
+.sidebar-widget ul a:hover {
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.sidebar-widget .list-group-item {
+  border-left: none;
+  border-right: none;
+}
+
+/* Slider/Carousel */
+.carousel-item img {
+  height: 400px; /* Atur tinggi gambar slider */
+  object-fit: cover; /* Agar gambar tidak gepeng */
+}
+
+.carousel-caption {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Latar belakang semi-transparan untuk teks */
+  border-radius: 5px;
+}
+
+/* Card Artikel */
+.card-title {
+  color: #0056b3;
+}
+
+.card.mb-3 {
+  border: 1px solid #e0e0e0;
+  transition: box-shadow 0.3s;
+}
+
+.card.mb-3:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Footer */
+footer.bg-dark {
+  background-color: #212529 !important;
+}
